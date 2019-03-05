@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Document</title>
+		<style>
+			.p1 {
+				font-size: 16px;
+				line-height: 32px;
+                background: red;
+			}
+			.s1 {
+				font-size: 2em;
+			}
+			.s2 {
+				font-size: 2em;
+				line-height: 2em;
+			}
+
+			.p2 {
+				font-size: 16px;
+				line-height: 3;
+                background: green;
+			}
+			.s5 {
+				font-size: 2em;
+			}
+			.s6 {
+				font-size: 2em;
+				line-height: 2em;
+			}
+		</style>
+	</head>
+	<body>
+        <div>我是浏览器的默认字体：px</div>
+		<div class="p1">
+            <p>p1 默认字体：16px，行高:32px</p>
+			<div class="s1">我的字体大小是：32px，行高：32px</div>
+			<div class="s2">我的字体大小是：32px，行高：64px</div>
+		</div>
+		<div class="p2">
+                <p>p2 默认字体：16px，行高:48px</p>
+			<div class="s5">我的字体大小是：32px，行高：96px</div>
+			<div class="s6">我的字体大小是：32px，行高：64px</div>
+		</div>
+	</body>
 </html>
