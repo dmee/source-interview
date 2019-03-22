@@ -31,7 +31,7 @@ function QuicKSort(arr, left, right) {
 	}
 	return arr;
 }
-const arr = NumberGenerator.create(50000);
+const arr = NumberGenerator.create(500000);
 console.time('QuicKSort');
 QuicKSort(arr, 0, arr.length - 1);
 console.timeEnd('QuicKSort');
