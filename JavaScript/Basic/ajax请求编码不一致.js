@@ -20,4 +20,4 @@ var str = new TextDecoder("gbk").decode(x);
 // https://github.com/inexorabletash/text-encoding
 var uint8array =  new TextEncoder("gbk",{ NONSTANDARD_allowLegacyEncoding: true }).encode(string);
  // 放入blob中准备上传
- var blob=new Blob([uint8array],{type:"text/plain"});
+var blob=new Blob([uint8array],{type:"text/plain"});
