@@ -12,8 +12,8 @@ class Dep {
 		Dep.target.addDep(this);
 	}
 	// 添加订阅者
-	addSub(sub) {
-		this.subs.push(sub);
+	addSub(watcher) {
+		this.subs.push(watcher);
 	}
 	notify() {
 		// 通知所有的订阅者(Watcher)，触发订阅者的相应逻辑处理
